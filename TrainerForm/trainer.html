@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trainer.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>Registration</header>
+        <form action="http://localhost/project/TrainerForm/trainer.ph" method="post">
+            <div class="name">
+                <div class="name-container">
+                    <div class="label name-label">
+                        <label>Full name</label>
+                    </div>
+                    <div class="input name-input">
+                        <input type="text" placeholder="Enter your name" name="name" required>
+                    </div>
+                </div>
+            </div>
+            <div class="personal-details">
+                <div class="personal-details-container">
+                    <div class="dob">
+                        <div class="dob-container">
+                            <div class="label dob-label">
+                                <label>Date of Birth</label>
+                            </div>
+                            <div class="input dob-input">
+                                <input type="date" placeholder="Enter birth date" name="DOB" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-container">
+                            <div class="label contact-label">
+                                <label>Contact no.</label>
+                            </div>
+                            <div class="input contact-input">
+                                <input type="text" placeholder="Enter mobile number" name="number" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gender">
+                        <div class="gender-container">
+                            <label>Gender</label>
+                            <div> male<input type="radio" name="Gender" value="male" /> female<input type="radio"
+                                    name="Gender" value="female" />
+                            </div>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="account">
+                <div class="account-container">
+                    <div class="email">
+                        <div class="email-container">
+                            <div class="label email-label">
+                                <label>Email</label>
+                            </div>
+                            <div class="input email-input">
+                                <input type="text" placeholder="Enter your email" name="email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="username">
+                        <div class="username-container">
+                            <div class="label username-label">
+                                <label>Username</label>
+                            </div>
+                            <div class="input username-input">
+                                <input type="text" placeholder="Enter your username" name="uame" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="password-container">
+                            <div class="label password-label">
+                                <label>password</label>
+                            </div>
+                            <div class="input password-input">
+                                <input type="password" placeholder="Enter your password" name="pword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <div class="address-container">
+                    <div class="address-type">
+                        <div class="address-type-container">
+                            <div class="label address-type-label">
+                                <label>Address</label>
+                            </div>
+                            <div class="input address-type-input">
+                                <input type="text" placeholder="Permanent or Temporary" name="adress" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="state">
+                        <div class="state-container">
+                            <div class="label state-label">
+                                <label>state</label>
+                            </div>
+                            <div class="input state-input">
+                                <input type="text" placeholder="Enter your state" name="state" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="district">
+                        <div class="district-container">
+                            <div class="label district-label">
+                                <label>District</label>
+                            </div>
+                            <div class="input district-input">
+                                <input type="text" placeholder="Enter your district" name="district" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="professional">
+                <div class="professional-container">
+                    <div class="experience">
+                        <div class="experience-container">
+                            <div class="label experience-label">
+                                <label>Experience</label>
+                            </div>
+                            <div class="input experience-input">
+                                <input type="number" placeholder="in years" name="experience" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training">
+                        <div class="training-container">
+                            <div class="label training-label">
+                                <label>Training Mode</label>
+                            </div>
+                            <div class="input training-input">
+                                <input type="text" placeholder="Online/Offline" name="training" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <div class="about-container">
+                            <div class="label about-label">
+                                <label>About Yourself</label>
+                            </div>
+                            <div class="input about-input">
+                                <input type="text" placeholder="Your skills, speciality,what make you diffrent etc."
+                                    name="about" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="button-container">
+                    <div class="backBtn">
+                        <i class="uil uil-navigator"></i>
+                        <span class="btnText">Back</span>
+                    </div>
+                    <button class="sumbit">
+                        <span class="btnText">Submit</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
